@@ -1,0 +1,6 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: 0px 100px;
+}

@@ -1,0 +1,134 @@
+.cardContainer {
+    width: 28%;
+    height: 350px;
+    min-width: 320px;
+    margin: 50px;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+
+.columnContainer {
+    display: flex;
+    height: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.column1 {
+    background: linear-gradient(90deg, rgba(65, 196, 214, 0.4) -73.18%, rgba(111, 16, 156, 0.268) 110.23%);
+    opacity: 50%;
+}
+.column1:hover {
+    background: linear-gradient(90deg, rgba(65, 196, 214, 0.4) -73.18%, rgba(111, 16, 156, 0.268) 110.23%);
+    opacity: 100%;
+}
+.column h3 {
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    color: #fff;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width:1520px) {
+    .column h3 {
+    font-size: 1.4rem;
+    }
+}
+.column .paragraphContainer {
+    display: flex;
+    padding: 10px;
+    height: 70%;
+}
+.column p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+    /* margin-bottom: 30px; */
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.buttonsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 3.5vh;
+}
+
+.button-git {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(153, 37, 207) 0%, rgb(57, 111, 249) 100%);
+    padding: .5vw 2vh;
+    opacity: 40%;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width:1585px) {
+    .button-git {
+    padding: .5vw .5vh;
+    }
+}
+.button-git:hover {
+    opacity: 100%;
+}
+.button-live {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(234, 136, 81) 0%, rgb(237, 32, 255) 100%);
+    padding: .5vw 2vh;
+    opacity: 40%;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width:1585px) {
+    .button-live {
+    padding: .5vw .5vh;
+    }
+}
+.button-live:hover {
+    opacity: 100%;
+}
+
+
+.column2 {
+    opacity: 50%;
+}
+.column2:hover {
+    opacity: 100%;
+}
+.column2:hover h2 {
+    opacity: 0%;
+}
+
+.column h2 {
+    position: absolute;
+    opacity: 50%;
+    font-size: 100px;
+    right: 20px;
+    top: 0px;
+}
+
+.column img {
+    width: 100%;
+    height: 350px;
+}
