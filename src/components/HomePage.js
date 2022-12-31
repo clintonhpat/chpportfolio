@@ -23,7 +23,7 @@ export default function HomePage() {
                     I am a Web Developer from North Alabama. I am passionate about creating beautiful and functional websites!
                 </p>
                 <div className="btn-con">
-                    <a href="chp-resume.docx" download className="main-btn">
+                    <a href="chp-resume.pdf" download className="main-btn">
                         <span className="btn-text">Download CV</span>
                         <span className="btn-icon"><i className="fas fa-download"></i></span>
                     </a>
