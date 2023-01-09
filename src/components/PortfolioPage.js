@@ -26,7 +26,7 @@ export default function PortfolioPage() {
     const project3 = {
       header: 'CRUD Zoology',
       content: 'A Zoology Crud database of Animals and their respective classes.',
-      link1: 'https://github.com/clintonhpat/crud-zoology-api/tree/main/ZoologyCRUDApi',
+      link1: 'https://github.com/clintonhpat/crud-zoology',
       link2: 'https://crudzoologyapp.onrender.com',
       image: crudZoologyPic2,
         cardNum: '3'
@@ -34,7 +34,7 @@ export default function PortfolioPage() {
     const project4 = {        
         header: 'Ticket Sys',
         content: 'An app to assist companies in keeping track of tasks/employee activity',
-        link1: 'https://github.com/clintonhpat/BillieJeansAuto-Api',
+        link1: 'https://github.com/clintonhpat/BillieJeansAuto',
         link2: 'https://billiejeansauto.onrender.com',
         image: billieJeansAutoPic,
         cardNum: '4'
